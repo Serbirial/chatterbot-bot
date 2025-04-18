@@ -9,7 +9,7 @@ from chatterbot.trainers import UbuntuCorpusTrainer
 # Enable info level logging
 logging.basicConfig(level=logging.INFO)
 
-chatbot = ChatBot('Example Bot')
+chatbot = ChatBot('Bot')
 
 trainer = UbuntuCorpusTrainer(chatbot)
 

@@ -8,7 +8,7 @@ ChatterBot Corpus of conversation dialog.
 '''
 
 
-chatbot = ChatBot('Example Bot')
+chatbot = ChatBot('Bot')
 
 # Start by training our bot with the ChatterBot corpus data
 trainer = ChatterBotCorpusTrainer(chatbot)
